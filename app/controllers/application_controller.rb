@@ -9,5 +9,6 @@ class ApplicationController < ActionController::Base
   	@buy = Category.find(1)
   	@education = Category.find(4)
   	@announ = Category.find(5)
+  	@subcategory = Subcategory.limit(8)
   end
 end
