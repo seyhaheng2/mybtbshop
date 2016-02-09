@@ -13,6 +13,7 @@
 
 *= require font-awesome
 *= require custom
+*= require msg
 *= require bootstrap
 *= require color
 *= require responsive

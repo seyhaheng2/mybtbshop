@@ -13,7 +13,7 @@ d = Category.create(name: "Education & Training")
 e = Category.create(name: "Announcements")
 
 
-phone = Subcategory.create(name: "Phones, Tablets", category_id: a.id)
+phone = Subcategory.create( name: "Phones, Tablets", category_id: a.id )
 phone_number = Subcategory.create(name: "Phone Numbers", category_id: a.id)
 phone_accesssory = Subcategory.create(name: "Phone Accessories", category_id: a.id)
 computer = Subcategory.create(name: "Computers", category_id: a.id)
