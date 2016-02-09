@@ -1588,7 +1588,7 @@ strong.logo-2 {
     height: 100%;
     background-color: #ffc107;
     z-index: -1;
-    transform: rotate(-33deg) scaleY(1);
+    transform: rotate(-50) scaleY(99);
     transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;

@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :products
+  resources :brands
+  resources :subcategories
+  resources :categories
   devise_for :users
   get 'home/index'
 
