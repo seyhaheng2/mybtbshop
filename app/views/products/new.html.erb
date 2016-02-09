@@ -1,5 +1,19 @@
-<h1>New Product</h1>
+<section class="account-option">
+   <div class="container">
+      <div class="inner-box">
+         <div class="text-box">
+            <h4>New Product</h4>
+            <p>Please fill the form below to complete your Post AD or Back to Homepage </p>
+         </div>
+         <%= link_to products_path, class: "btn-style-1" do %>
+         <i class="fa fa-sign-in"></i>Go BACK
+         <% end %>
+      </div>
+   </div>
+</section>
+  <section class="resum-form padd-tb">
+     <div class="container">
+		<%= render 'form' %>
+     </div>
+  </section>
 
-<%= render 'form' %>
-
-<%= link_to 'Back', products_path %>

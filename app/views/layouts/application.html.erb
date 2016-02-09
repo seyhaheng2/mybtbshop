@@ -10,9 +10,14 @@
 </head>
 
 <body class="theme-style-1">
-
-<%= yield %>
-
+    <%= render 'layouts/msg' %>
+  <div id="wrapper">
+    <%= render 'layouts/header' %>
+    <% unless devise_controller? %>
+      <%= render 'layouts/search_box' unless @disable_nav %> 
+    <% end %>
+    <%= yield %>
+  </div>
 
 
   <%# <%= javascript_include_tag 'jquery-1.11.3.min'%>

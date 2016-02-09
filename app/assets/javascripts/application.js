@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require jquery-1.11.3.min
 //= require bootstrap.min
 //= require owl.carousel.min
@@ -20,3 +19,14 @@
 //= require jquery.kenburnsy
 //= require jquery.mCustomScrollbar.concat.min
 //= require custom
+//= require turbolinks
+
+
+$(document).ready(function() {
+    $(".alert button.close").click(function (e) {
+    	$(this).parent().fadeOut('fast');
+    	console.log("Hello");
+	});
+});
+
+
