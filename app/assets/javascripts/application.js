@@ -23,10 +23,7 @@
 
 
 $(document).ready(function() {
-    $(".alert button.close").click(function (e) {
-    	$(this).parent().fadeOut('fast');
-    	console.log("Hello");
-	});
+	    $('.alert').delay(3200).fadeOut(300);
 });
 
 
